@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		652FE0D52547493700F5DFA8 /* TimeoutDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652FE0D42547493700F5DFA8 /* TimeoutDemoVC.swift */; };
+		652FE0D82547F3CF00F5DFA8 /* SimpleDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652FE0D72547F3CE00F5DFA8 /* SimpleDemoVC.swift */; };
 		65DC54D92545414300FF0038 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DC54D82545414300FF0038 /* AppDelegate.swift */; };
 		65DC54DB2545414300FF0038 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DC54DA2545414300FF0038 /* SceneDelegate.swift */; };
-		65DC54DD2545414300FF0038 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DC54DC2545414300FF0038 /* ViewController.swift */; };
+		65DC54DD2545414300FF0038 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DC54DC2545414300FF0038 /* MainVC.swift */; };
 		65DC54E02545414300FF0038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65DC54DE2545414300FF0038 /* Main.storyboard */; };
 		65DC54E22545414600FF0038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65DC54E12545414600FF0038 /* Assets.xcassets */; };
 		65DC54E52545414600FF0038 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65DC54E32545414600FF0038 /* LaunchScreen.storyboard */; };
+		65DC54F0254542E300FF0038 /* UploadTaskDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DC54EF254542E300FF0038 /* UploadTaskDemoVC.swift */; };
+		65DC54F6254576D000FF0038 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DC54F5254576D000FF0038 /* BaseVC.swift */; };
+		65DC54F82545B9B800FF0038 /* ForceUpdateDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DC54F72545B9B800FF0038 /* ForceUpdateDemoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		652FE0D42547493700F5DFA8 /* TimeoutDemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeoutDemoVC.swift; sourceTree = "<group>"; };
+		652FE0D72547F3CE00F5DFA8 /* SimpleDemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleDemoVC.swift; sourceTree = "<group>"; };
 		65DC54D52545414300FF0038 /* SemaphoreDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SemaphoreDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65DC54D82545414300FF0038 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65DC54DA2545414300FF0038 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		65DC54DC2545414300FF0038 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65DC54DC2545414300FF0038 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		65DC54DF2545414300FF0038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65DC54E12545414600FF0038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65DC54E42545414600FF0038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65DC54E62545414600FF0038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65DC54EF254542E300FF0038 /* UploadTaskDemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadTaskDemoVC.swift; sourceTree = "<group>"; };
+		65DC54F5254576D000FF0038 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		65DC54F72545B9B800FF0038 /* ForceUpdateDemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceUpdateDemoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +47,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		652FE0D32547491600F5DFA8 /* Timeout */ = {
+			isa = PBXGroup;
+			children = (
+				652FE0D42547493700F5DFA8 /* TimeoutDemoVC.swift */,
+			);
+			path = Timeout;
+			sourceTree = "<group>";
+		};
+		652FE0D62547EF4300F5DFA8 /* SimpleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				652FE0D72547F3CE00F5DFA8 /* SimpleDemoVC.swift */,
+			);
+			path = SimpleDemo;
+			sourceTree = "<group>";
+		};
 		65DC54CC2545414300FF0038 = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +84,58 @@
 			children = (
 				65DC54D82545414300FF0038 /* AppDelegate.swift */,
 				65DC54DA2545414300FF0038 /* SceneDelegate.swift */,
-				65DC54DC2545414300FF0038 /* ViewController.swift */,
-				65DC54DE2545414300FF0038 /* Main.storyboard */,
-				65DC54E12545414600FF0038 /* Assets.xcassets */,
-				65DC54E32545414600FF0038 /* LaunchScreen.storyboard */,
-				65DC54E62545414600FF0038 /* Info.plist */,
+				65DC54ED254541AE00FF0038 /* UIs */,
+				65DC54EC2545418200FF0038 /* AssestFiles */,
 			);
 			path = SemaphoreDemo;
+			sourceTree = "<group>";
+		};
+		65DC54EC2545418200FF0038 /* AssestFiles */ = {
+			isa = PBXGroup;
+			children = (
+				65DC54E12545414600FF0038 /* Assets.xcassets */,
+				65DC54E62545414600FF0038 /* Info.plist */,
+			);
+			path = AssestFiles;
+			sourceTree = "<group>";
+		};
+		65DC54ED254541AE00FF0038 /* UIs */ = {
+			isa = PBXGroup;
+			children = (
+				65DC54DC2545414300FF0038 /* MainVC.swift */,
+				65DC54F5254576D000FF0038 /* BaseVC.swift */,
+				652FE0D62547EF4300F5DFA8 /* SimpleDemo */,
+				65DC54F92545B9BD00FF0038 /* OrderTask */,
+				65DC54F32545767900FF0038 /* BatchTasks */,
+				652FE0D32547491600F5DFA8 /* Timeout */,
+				65DC54EE254541B600FF0038 /* SBs */,
+			);
+			path = UIs;
+			sourceTree = "<group>";
+		};
+		65DC54EE254541B600FF0038 /* SBs */ = {
+			isa = PBXGroup;
+			children = (
+				65DC54DE2545414300FF0038 /* Main.storyboard */,
+				65DC54E32545414600FF0038 /* LaunchScreen.storyboard */,
+			);
+			path = SBs;
+			sourceTree = "<group>";
+		};
+		65DC54F32545767900FF0038 /* BatchTasks */ = {
+			isa = PBXGroup;
+			children = (
+				65DC54EF254542E300FF0038 /* UploadTaskDemoVC.swift */,
+			);
+			path = BatchTasks;
+			sourceTree = "<group>";
+		};
+		65DC54F92545B9BD00FF0038 /* OrderTask */ = {
+			isa = PBXGroup;
+			children = (
+				65DC54F72545B9B800FF0038 /* ForceUpdateDemoVC.swift */,
+			);
+			path = OrderTask;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +209,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65DC54DD2545414300FF0038 /* ViewController.swift in Sources */,
+				65DC54F0254542E300FF0038 /* UploadTaskDemoVC.swift in Sources */,
+				65DC54F6254576D000FF0038 /* BaseVC.swift in Sources */,
+				65DC54F82545B9B800FF0038 /* ForceUpdateDemoVC.swift in Sources */,
+				652FE0D52547493700F5DFA8 /* TimeoutDemoVC.swift in Sources */,
+				65DC54DD2545414300FF0038 /* MainVC.swift in Sources */,
 				65DC54D92545414300FF0038 /* AppDelegate.swift in Sources */,
 				65DC54DB2545414300FF0038 /* SceneDelegate.swift in Sources */,
+				652FE0D82547F3CF00F5DFA8 /* SimpleDemoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +362,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7Y4TPNE48W;
-				INFOPLIST_FILE = SemaphoreDemo/Info.plist;
+				INFOPLIST_FILE = SemaphoreDemo/AssestFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +380,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7Y4TPNE48W;
-				INFOPLIST_FILE = SemaphoreDemo/Info.plist;
+				INFOPLIST_FILE = SemaphoreDemo/AssestFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
